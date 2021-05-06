@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Converter component should render correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <input
+      data-testid="input"
+      style="width: 600px;"
+      type="text"
+    />
+    <div>
+      <p>
+        Output: 
+        <span
+          data-testid="output"
+        >
+          -
+        </span>
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

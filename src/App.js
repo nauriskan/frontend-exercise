@@ -1,16 +1,8 @@
-function App() {
-  const text = ''
+import React from 'react';
+import Converter from './components/Converter';
 
-  return (
-    <div>
-      <input type='text' />
-      <div>
-        <p>
-          Output: {text}
-        </p>
-      </div>
-    </div>
-  )
+function App() {
+  return <Converter />
 }
 
-export default App
+export default App;
